@@ -12,7 +12,7 @@ The script uses a server where you have all the different versions of your php s
 ### Usage
 1. Create a folder in a server that contains:
   * A version.txt file which includes the last version of your system
-  * A sub-folder for each version you release, eachone includes a package.zip file (that has an snapshot of that version) and an update.php file (that gets executed when the system is upgraded to that version)
+  * A folder called **packages** with a sub-folder for each version you release, eachone includes a package.zip file (that has an snapshot of that version) and an update.php file (that gets executed when the system is upgraded to that version) inside the package.zip
 2. Include the Updater Class (class.updater.php) in your client and create an object to update it.
 3. You can see an example about how it works at example/ folder
 
